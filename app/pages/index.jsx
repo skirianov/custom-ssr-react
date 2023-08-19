@@ -19,6 +19,7 @@ export const HomePage = ({ title, products }) => {
 
   return (
     <div>
+      <h2>Hello</h2>
       <h1>{title}</h1>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
@@ -38,6 +39,7 @@ export const HomePage = ({ title, products }) => {
           <button onClick={() => console.log(product.title)}>Console</button>
         </div>
       ))}
+
     </div>
   )
 }
